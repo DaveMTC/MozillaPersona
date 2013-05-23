@@ -47,5 +47,6 @@
         </div>
         <?php else: ?>
         	hola <?php echo $_SESSION['email']; ?>
+        <?php endif; ?>
     </body>
 </html>
